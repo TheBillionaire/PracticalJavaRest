@@ -11,8 +11,9 @@ repositories {
 }
 dependencies {
   implementation 'org.springframework.boot:spring-boot-starter-webflux'
+  implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
   implementation 'org.codehaus.groovy:groovy'
-  developmentOnly 'org.springframework.boot:spring-boot-devtools'
+  //developmentOnly 'org.springframework.boot:spring-boot-devtools'
   testImplementation 'org.springframework.boot:spring-boot-starter-test'
   testImplementation 'io.projectreactor:reactor-test'
 }
